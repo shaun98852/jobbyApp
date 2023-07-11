@@ -1,0 +1,252 @@
+.itemBackground {
+  background-color: #000000;
+  padding-bottom: 30px;
+  /* min-height: 100vh; */
+}
+
+.loader-container {
+  text-align: center;
+}
+
+.bg {
+  width: 90%;
+  margin: auto;
+}
+
+.background {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.requiredItems {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+.jobDetails {
+}
+.post {
+  font-size: 20px;
+  margin-bottom: -10px;
+  color: #f1f5f9;
+}
+.ratingBox {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+.rating {
+  font-size: 22px;
+  font-family: roboto;
+  color: #f1f5f9;
+}
+.starIcon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+.description {
+  font-family: roboto;
+  color: #f1f5f9;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.locationDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.locationIcon {
+  color: #f1f5f9;
+  margin-right: 5px;
+}
+.locationArea {
+  font-family: roboto;
+  color: #f1f5f9;
+  font-size: 15px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+.text {
+  color: #ffffff;
+}
+.startingSection {
+  display: flex;
+
+  align-items: center;
+}
+.package {
+  font-family: roboto;
+  font-size: 18px;
+  color: #f1f5f9;
+}
+
+.descriptionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.websiteAndArrow {
+  display: flex;
+  align-items: center;
+}
+.websiteLink {
+  color: #b6c5ff;
+
+  font-family: roboto;
+  font-weight: 400;
+  margin-right: 7px;
+  font-size: 20px;
+}
+.linkedWebsite {
+  text-decoration: none;
+}
+.redirectLink {
+  color: #b6c5ff;
+}
+.skillsHeading {
+  font-family: roboto;
+  color: #f1f5f9;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.skillsBox {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.skillList {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.skillPara {
+  font-family: roboto;
+  font-weight: 450;
+  color: #f1f5f9;
+}
+.skillImage {
+  height: 30px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .skillImage {
+    align-self: flex-start;
+  }
+}
+.companyLife {
+  font-family: roboto;
+  color: #f1f5f9;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.lifeAtCompanyBox {
+}
+
+@media screen and (min-width: 768px) {
+  .lifeAtCompanyBox {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.companyPara {
+  font-family: roboto;
+  color: #f1f5f9;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .companyPara {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .companyPara {
+    align-self: flex-start;
+    margin-right: 20px;
+    margin-top: 0px;
+  }
+}
+
+.similarJobsHeading {
+  font-family: roboto;
+  color: #f1f5f9;
+}
+
+.similarJobsBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+.listBg {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .listBg {
+    width: 30%;
+    margin-right: 20px;
+  }
+}
+
+.horizontalLine {
+  color: #cbd5e1;
+}
+.container-loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.retryButton {
+  font-family: roboto;
+  color: #ffffff;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #4f46e5;
+  height: 30px;
+  width: 100px;
+}
+.retryPara {
+  color: #cbd5e1;
+  font-family: roboto;
+  margin-top: 0px;
+}
+.failureBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.failureImage {
+  height: 300px;
+}
+.failureHeading {
+  color: #ffffff;
+  font-family: roboto;
+  text-align: center;
+}

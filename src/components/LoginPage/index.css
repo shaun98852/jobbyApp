@@ -1,0 +1,114 @@
+.loginBg {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.loginBox {
+  background-color: #272727;
+  width: 45%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.websiteLogo {
+  height: 23px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .websiteLogo {
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+.usernameBox {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-bottom: 30px;
+}
+
+.usernameLabel {
+  font-family: roboto;
+  color: #f1f5f9;
+  margin-bottom: 8px;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .usernameLabel {
+    font-size: 13px;
+  }
+}
+
+.usernameInput {
+  height: 30px;
+  border-style: solid;
+  border-color: #64748b;
+  background-color: transparent;
+  border-radius: 5px;
+  border-width: 1px;
+
+  font-family: roboto;
+  padding-left: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .usernameInput {
+    height: 45px;
+    font-size: 16px;
+  }
+}
+
+.submitButton {
+  width: 75%;
+  border-style: none;
+  font-family: roboto;
+  font-weight: bold;
+  background-color: #4f46e5;
+  color: #f8fafc;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .submitButton {
+    height: 40px;
+    font-size: 15px;
+    font-family: roboto;
+  }
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error {
+  font-family: roboto;
+  color: #ff0b37;
+  align-self: flex-start;
+  padding-left: 12.5%;
+  font-size: 12px;
+}
+
+.loginBg {
+}
+
+.loginBg {
+}
+
+.loginBg {
+}
